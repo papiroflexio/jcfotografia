@@ -10,7 +10,7 @@
 
 	$sesion = $_SESSION['username'];
 
-	$contra = MD5($contrasena);
+	$contra = $contrasena;
 
 	echo $nombre;
 
@@ -23,7 +23,13 @@
 	mysqli_query($conn, $cambiar_correo);
 
 	$cambiar_usuario = "UPDATE usuarios SET usuario = '$usuario' WHERE usuario = '$sesion';";
-	mysqli_query($conn, $cambiar_usuario);
+	
+
+	if (mysqli_query($conn, $cambiar_usuario)) {
+
+		$_SESSION['username'] = $usuario;
+
+	}
 
 	$cambiar_contra = "UPDATE usuarios SET contra = '$contra' WHERE usuario = '$sesion';";
 	mysqli_query($conn, $cambiar_contra);

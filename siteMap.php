@@ -33,23 +33,29 @@
               </ol>
             </nav>
 			<h3>Mapa del sitio</h3>
-			<dl>Barra navegación.
+			<p>Barra navegación.</p>
+			<dl>
 				<dt><a href="principal.php">1.- Galería</a></dt>
 					<dd><a href="#">1.1.- Imagen individual seleccionada.</a></dd>
 			</dl>
 			<dl>
 				<dt><a href="Ofertas.php">2.- Artículos</a></dt>
+					<dd><a href="#">2.2.- Artículo individual seleccionado.</a></dd>
 			</dl>
 			<dl>
-				<dt><a href="modificarUsuario.php">3.- Perfil</a></dt>
+				<dt><a href="#">3.- Perfil</a></dt>
 			</dl>
-			<dl>Botón de control.
-				<dt><a href="php/logout.php">4.- Cerrar sesión</a></dt>
+			<p>Botón de control.</p>
+			<dl>
+				<dt><a href="#">4.- Cerrar sesión</a></dt>
 			</dl>
-				<dt><a href="crearExperiencias.php">5.- Subir una imagen (administrador)</a></dt>
+				<dt><a href="#">5.- Subir una imagen (administrador)</a></dt>
 			</dl>
 			</dl>
-				<dt><a href="crearExperiencias.php">6.- Crear un artículo (administrador)</a></dt>
+				<dt><a href="#">6.- Crear un artículo (administrador)</a></dt>
+			</dl>
+			</dl>
+				<dt><a href="#">7.- Usuarios (administrador)</a></dt>
 			</dl>
 		</section>
 	</body>

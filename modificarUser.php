@@ -51,7 +51,7 @@
                             <!-- 
                                 Creación del formulario de modificación de datos del usuario.
                             -->
-                            <h4>Aquí puedes modificar tus datos, <?php echo $_GET['userpatata']; ?></h4>
+                            <h4>Aquí puedes modificar los datos del usuario: <strong><?php echo $_GET['userpatata']; ?></strong></h4>
                             <?php
 
                             // Se incluye la conexión a la base de datos.
